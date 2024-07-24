@@ -11,7 +11,7 @@ const forecast = (latitude, longitude, callback) => {
                 
                 }
                 else{
-                callback(undefined, {text: body.current.condition.text + '. It is currently ' + body.current.temp_c});
+                callback(undefined, {text: 'At time '+ body.location.localtime + '. '+body.current.condition.text + '. It is currently ' + body.current.temp_c});
                 }
                 
         });
