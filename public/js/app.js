@@ -1,5 +1,3 @@
-console.log('client side js')
-
 // fetch('http://api.weatherapi.com/v1/current.json?key=5333c25795f34cd699294246241707&q=32,75').then((response) =>{
 //     response.json().then((data) =>{
 //      if(data.error){
@@ -34,5 +32,3 @@ weatherForm.addEventListener('submit', (e)=>{
         })
     })
 })
-
-console.log('client side js end')
